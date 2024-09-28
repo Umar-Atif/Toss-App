@@ -1,0 +1,82 @@
+body{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-div{
+    background-color: rgb(20, 20, 20);
+    padding: 160px 120px;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    font-size: 1.3rem;
+    background-color: transparent;
+    padding: 12px;
+    border-radius: 15px;
+    color: whitesmoke;
+    border: 1px solid white;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+
+
+/* body{
+    color: rgb(20, 20, 20);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(20, 20, 20);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-div{
+    background-color: white;
+    padding: 160px 120px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    font-size: 1.3rem;
+    background-color: transparent;
+    padding: 12px;
+    border-radius: 15px;
+    color: rgb(20, 20, 20);
+    border: 1px solid rgb(20, 20, 20);
+}
+p{
+    text-align: center;
+}  */
